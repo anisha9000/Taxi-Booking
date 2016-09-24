@@ -1,0 +1,70 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"  >
+
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    
+    <Spinner
+    android:id="@+id/favorite_group"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" />
+
+     <EditText
+        android:id="@+id/location_to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Location_to" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/location_from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Location_from" />
+
+    <EditText
+        android:id="@+id/location_purpose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Location_purpose" />
+    
+    <EditText
+        android:id="@+id/vehicle_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Location_vehicle_type" />
+    
+    <TimePicker
+        android:id="@+id/timePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <DatePicker  
+        android:id="@+id/datePicker1"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content" />  
+   
+     <Button
+        android:id="@+id/send_fav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Send_fav" />
+     <EditText
+        android:id="@+id/information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/information"
+        android:ems="10" />
+    
+
+</LinearLayout>
+ </ScrollView>
